@@ -1,5 +1,5 @@
 import React from 'react';
-import { Clock, Video, ShieldCheck, DollarSign, Zap, CheckCircle } from 'lucide-react';
+import { Clock, Video, ShieldCheck, PoundSterling, Zap, CheckCircle } from 'lucide-react';
 import MotionWrapper from '../wrapper/MotionWrapper';
 
 const Expect = ({ itemVariants }) => {
@@ -20,7 +20,7 @@ const Expect = ({ itemVariants }) => {
             description: "Educational session with no obligation"
         },
         {
-            icon: DollarSign,
+            icon: PoundSterling,
             title: "Free Consultation",
             description: "Get expert advice at no cost"
         },

@@ -16,7 +16,7 @@ const Footer = () => {
             className="md:col-span-2"
           >
             <h3 className="text-2xl font-bold mb-4 bg-linear-to-r from-blue-400 to-cyan-400 bg-clip-text text-transparent">
-              DS System
+              The DS System
             </h3>
             <p className="text-gray-400 mb-6 max-w-md">
               Streamlining wholesale & distribution operations with innovative technology solutions designed for modern businesses.

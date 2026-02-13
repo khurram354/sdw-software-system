@@ -19,7 +19,7 @@ const DistributionFeature = ({ containerVariants, itemVariants }) => {
                 "Low stock alerts",
                 "Customer specific price system"
             ],
-            stats: { accuracy: "99.9%", reduction: "40%", efficiency: "65%" }
+            stats: { accuracy: "100%", reduction: "40%", efficiency: "65%" }
         },
         {
             id: "route",
@@ -61,7 +61,7 @@ const DistributionFeature = ({ containerVariants, itemVariants }) => {
                 "Live telesales performance",
                 "Custom report builder",
             ],
-            stats: { accuracy: "99.5%", reduction: "35%", efficiency: "60%" }
+            stats: { accuracy: "100%", reduction: "35%", efficiency: "60%" }
         },
         {
             id: "security",
@@ -79,7 +79,7 @@ const DistributionFeature = ({ containerVariants, itemVariants }) => {
         },
         {
             id: "mobile",
-            title: "Mobile App",
+            title: "Mobile Ordering App",
             description: "Fully integrated mobile app, Customer order with live pricing.",
             icon: Smartphone,
             gradient: "from-indigo-500 to-purple-500",

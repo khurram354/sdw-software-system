@@ -28,8 +28,8 @@ const MeasureableResult = ({containerVariants, itemVariants,}) => {
     {
       icon: CheckCircle,
       title: "Improve Accuracy",
-      description: "Achieve 99.9% accuracy in inventory tracking.",
-      metric: "99.9%",
+      description: "Achieve 100% accuracy in inventory tracking.",
+      metric: "100%",
       color: "text-cyan-400"
     },
     {
@@ -63,9 +63,10 @@ const MeasureableResult = ({containerVariants, itemVariants,}) => {
                 </span>
                 <br />
                 <span className="text-white">That Drive Growth</span>
+                <br/>
               </h2>
               <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-                See the impact that the DS System can have on your wholesale and distribution business
+                See the impact that the DS System can have on your business
               </p>
             </MotionWrapper>
             <MotionWrapper variants={containerVariants} className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mb-20">

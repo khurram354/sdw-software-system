@@ -13,7 +13,7 @@ const HeroFeature = ({ containerVariants, itemVariants, fadeInUp }) => {
         },
         {
             label: "Inventory Accuracy",
-            value: "99%+",
+            value: "100%",
             icon: Package,
             description: "Real-time stock levels"
         },

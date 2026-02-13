@@ -1,7 +1,7 @@
 'use client';
 import React, {useState} from 'react';
 import MotionWrapper from '../wrapper/MotionWrapper';
-import { Store, Package, Truck, ShoppingCart, Building2, Target, CheckCircle, ArrowRight, TrendingUp, Clock, DollarSign, Award, Zap } from 'lucide-react';
+import { Store, Package, Truck, ShoppingCart, Building2, Target, CheckCircle, ArrowRight, TrendingUp, Clock, PoundSterling, Award, Zap } from 'lucide-react';
 
 export const Solution = ({containerVariants, itemVariants}) => {
     const [activeIndustry, setActiveIndustry] = useState("wholesalers");
@@ -96,7 +96,7 @@ export const Solution = ({containerVariants, itemVariants}) => {
       color: "text-blue-400"
     },
     {
-      icon: DollarSign,
+      icon: PoundSterling,
       title: "Cost Reduction",
       description: "Cut operational costs by up to 40%",
       metric: "40%",
@@ -105,8 +105,8 @@ export const Solution = ({containerVariants, itemVariants}) => {
     {
       icon: Award,
       title: "Order Fulfillment",
-      description: "Achieve 99% on-time order fulfillment",
-      metric: "99%",
+      description: "Achieve 100% on-time order fulfillment",
+      metric: "100%",
       color: "text-orange-400"
     },
     {
@@ -119,8 +119,8 @@ export const Solution = ({containerVariants, itemVariants}) => {
     {
       icon: Target,
       title: "Accuracy",
-      description: "Achieve 99.9% order accuracy rate",
-      metric: "99.9%",
+      description: "Achieve 100% order accuracy rate",
+      metric: "100%",
       color: "text-cyan-400"
     }
   ];
