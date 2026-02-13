@@ -16,7 +16,7 @@ const Footer = () => {
             className="md:col-span-2"
           >
             <h3 className="text-2xl font-bold mb-4 bg-linear-to-r from-blue-400 to-cyan-400 bg-clip-text text-transparent">
-              SDW DS System
+              The SDW DS System
             </h3>
             <p className="text-gray-400 mb-6 max-w-md">
               Streamlining distribution operations with innovative technology solutions designed for modern businesses.
@@ -66,7 +66,7 @@ const Footer = () => {
               </li>
               <li className="flex items-start gap-3 text-gray-400">
                 <Mail className="w-5 h-5 mt-1 text-blue-400" />
-                <Link href="mailto:support@sdw-ds.com">support@sdw-ds.com</Link>
+                <Link href="mailto:sales@sdw-ds.com">sales@sdw-ds.com</Link>
               </li>
               <li className="flex items-start gap-3 text-gray-400">
                 <MapPin className="w-5 h-5 mt-1 text-blue-400" />

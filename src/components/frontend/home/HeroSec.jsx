@@ -13,17 +13,17 @@ const HeroSec = () => {
             >
                 <div className="inline-flex items-center gap-2 bg-linear-to-r from-blue-500 to-purple-600 text-sm font-semibold px-4 py-2 rounded-full mb-6">
                     <Zap className="w-4 h-4" />
-                    TRANSFORM YOUR DISTRIBUTION BUSINESS
+                    TRANSFORM YOUR WHOLESALE & DISTRIBUTION BUSINESS
                 </div>
 
-                <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight bg-linear-to-r from-white via-blue-100 to-cyan-200 bg-clip-text text-transparent">
-                    All-in-One Distribution
-                    <span className="block"> & ERP System</span>
+                <h1 className="text-4xl md:text-7xl font-bold mb-6 leading-tight bg-linear-to-r from-white via-blue-100 to-cyan-200 bg-clip-text text-transparent">
+                    The All-in-One ERP Build Specifically for
+                    <span className="block">Wholesale & Distriution</span>
                 </h1>
 
-                <p className="text-xl text-gray-300 mb-10 max-w-4xl mx-auto">
-                    Unify inventory, routes, customers, invoicing, and reporting in one powerful platform.
-                    Built specifically for <span className="font-semibold text-blue-300">wholesalers</span> and <span className="font-semibold text-green-300">route-based businesses</span>.
+                <p className="text-xl text-gray-300 mb-10 max-w-4xl mx-auto leading-relaxed">
+                    Take control of inventory, routes, customers, invoicing, and reporting -- all in one platform built for {' '} 
+                    <span className="font-semibold text-blue-300">Wholesale </span> and <span className="font-semibold text-green-300">Distribution businesses</span>.
                 </p>
 
                 <div className="flex flex-col sm:flex-row justify-center gap-4">
@@ -45,10 +45,10 @@ const HeroSec = () => {
                 </div>
                 <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mt-16">
                     {[
-                        { value: "99%", label: "Stock Accuracy" },
-                        { value: "40%", label: "Time Saved" },
+                        { value: "100%", label: "Stock Accuracy" },
+                        { value: "50%", label: "Time Saved" },
                         { value: "25%", label: "Profit Increase" },
-                        { value: "99%", label: "Route Management" }
+                        { value: "100%", label: "Route Management" }
                     ].map((stat, index) => (
                         <MotionWrapper key={index} transition={{ delay: index * 0.2 }}
                             initial={{ opacity: 0, y: 20 }}

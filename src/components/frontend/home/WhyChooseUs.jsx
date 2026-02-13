@@ -6,7 +6,7 @@ const WhyChooseUs = ({ fadeInUp }) => {
         {
             icon: "🎯",
             title: "Built for Distribution",
-            desc: "Specifically designed for wholesale and route-based businesses"
+            desc: "Specifically designed for wholesale and distribution businesses"
         },
         {
             icon: "⚡",
@@ -30,7 +30,7 @@ const WhyChooseUs = ({ fadeInUp }) => {
                     className="text-center mb-16"
                 >
                     <h2 className="text-4xl font-bold mb-4">
-                        Why Choose <span className="text-transparent bg-linear-to-r from-cyan-400 to-blue-400 bg-clip-text">SDW DS System</span>
+                        Why Choose <span className="text-transparent bg-linear-to-r from-cyan-400 to-blue-400 bg-clip-text">The SDW DS System</span>
                     </h2>
                 </MotionWrapper>
 

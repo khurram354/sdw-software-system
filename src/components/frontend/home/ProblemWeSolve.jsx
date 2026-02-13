@@ -32,11 +32,11 @@ const ProblemWeSolve = ({fadeInUp}) => {
                     variants={fadeInUp}
                     className="text-center mb-16"
                 >
-                    <h2 className="text-4xl font-bold mb-4">
-                        The Problems <span className="text-transparent bg-linear-to-r from-red-400 to-orange-400 bg-clip-text">We Solve</span>
+                    <h2 className="md:text-5xl text-3xl font-bold mb-4 leading-relaxed">
+                        Solving the Biggest Challenges in <span className="text-transparent bg-linear-to-r from-red-400 to-orange-400 bg-clip-text inline-block">Wholesale & Distribution</span>
                     </h2>
-                    <p className="text-transparent bg-linear-to-r from-red-400 to-orange-400 bg-clip-text text-xl max-w-3xl mx-auto">
-                        Distribution businesses face unique challenges. We&apos;ve built DS System specifically to address them.
+                    <p className="text-transparent bg-linear-to-r from-red-400 to-orange-400 bg-clip-text text-lg md:text-xl max-w-4xl mx-auto leading-relaxed">
+                        From pricing control to route management, DS System is purpose-build to help wholesale and distribution businesses operate smarter and more profitably.
                     </p>
                 </MotionWrapper>
                 <MotionWrapper

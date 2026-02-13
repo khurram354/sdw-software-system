@@ -28,7 +28,7 @@ const CTAFeature = () => {
                 </span>
                 <br />
                 <span className="bg-linear-to-r from-green-500 to-green-600 bg-clip-text text-transparent">
-                  Your Distribution Business?
+                  Your Wholesale & Distribution Business?
                 </span>
               </MotionWrapper>
 
@@ -36,9 +36,9 @@ const CTAFeature = () => {
                 initial={{ y: 20, opacity: 0 }}
                 whileInView={{ y: 0, opacity: 1 }}
                 transition={{ delay: 0.3 }}
-                className="text-xl text-gray-300 max-w-2xl mx-auto mb-10"
+                className="text-xl text-gray-300 max-w-3xl mx-auto mb-10"
               >
-                Discover how SDW DS System can streamline your sales, inventory, Invoicing and delivery workflows in one platform.
+                Discover how The SDW DS System can streamline your sales, inventory, Invoicing and delivery workflows in one platform.
               </MotionWrapper>    
             </div>
           </MotionWrapper>

@@ -4,7 +4,7 @@ import Link from "next/link";
 
 const CTAIndustry = () => {
   return (
-     <section className="py-12 px-4 sm:px-6 lg:px-8 bg-linear-to-b from-gray-900 to-gray-800">
+     <section className="py-10 px-4 sm:px-6 lg:px-8 bg-linear-to-b from-gray-900 to-gray-800">
         <div className="max-w-7xl mx-auto">
           <MotionWrapper
             initial={{ opacity: 0, scale: 0.95 }}
@@ -37,9 +37,9 @@ const CTAIndustry = () => {
                 initial={{ y: 20, opacity: 0 }}
                 whileInView={{ y: 0, opacity: 1 }}
                 transition={{ delay: 0.3 }}
-                className="text-xl text-gray-300 max-w-2xl mx-auto mb-10"
+                className="text-xl text-gray-300 max-w-3xl mx-auto mb-10"
               >
-                See exactly how DS System can solve your specific industry challenges with a personalized demo
+                See exactly how The DS System can solve your specific industry challenges with a personalized demo
               </MotionWrapper>
 
               <MotionWrapper

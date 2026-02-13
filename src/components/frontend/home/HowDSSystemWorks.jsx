@@ -18,7 +18,7 @@ const HowDSSystemWorks = ({fadeInUp}) => {
             className="text-center mb-16"
           >
             <h2 className="text-4xl font-bold mb-4">
-              How <span className="text-transparent bg-linear-to-r from-green-400 to-emerald-400 bg-clip-text">DS System</span> Works
+              How <span className="text-transparent bg-linear-to-r from-green-400 to-emerald-400 bg-clip-text">The DS System</span> Works
             </h2>
             <p className="text-gray-400 text-xl">Three simple steps to transform your business</p>
           </MotionWrapper>

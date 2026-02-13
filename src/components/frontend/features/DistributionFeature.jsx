@@ -76,6 +76,21 @@ const DistributionFeature = ({ containerVariants, itemVariants }) => {
                 "Two-factor authentication",
             ],
             stats: { accuracy: "99.99%", reduction: "99%", efficiency: "100%" }
+        },
+        {
+            id: "mobile",
+            title: "Mobile App",
+            description: "Fully integrated mobile app, Customer order with live pricing.",
+            icon: Smartphone,
+            gradient: "from-indigo-500 to-purple-500",
+            color: "indigo",
+            details: [
+                "Build-in suggestive add-ons to boost complementary sales",
+                "Fully integrated with DS System",
+                "Live pricing displayed during customer orders",
+                "Encourage repeate purchase automatically"
+            ],
+            stats: { accuracy: "99%", reduction: "20%", efficiency: "70%" }
         }
     ];
     const currentFeature = features.find(f => f.id === activeTab) || features[0];
@@ -85,7 +100,7 @@ const DistributionFeature = ({ containerVariants, itemVariants }) => {
                 <MotionWrapper
                     initial="hidden"
                     whileInView='visible'
-                    viewport={{once:true, amount: 0.2}}
+                    viewport={{ once: true, amount: 0.2 }}
                     variants={containerVariants}
                 >
                     <MotionWrapper variants={itemVariants} className="text-center mb-16">
@@ -97,7 +112,7 @@ const DistributionFeature = ({ containerVariants, itemVariants }) => {
                             <span className="text-white">Platform Features</span>
                         </h2>
                         <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-                            Every tool you need to manage your distribution business efficiently
+                            Every tool you need to manage your wholesale & distribution business efficiently
                         </p>
                     </MotionWrapper>
                     <MotionWrapper variants={itemVariants} className="flex flex-wrap justify-center gap-3 mb-12">

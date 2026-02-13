@@ -20,11 +20,11 @@ const Reporting = () => {
                         whileInView={{ opacity: 1, x: 0 }}
                         viewport={{ once: true }}
                     >
-                        <h2 className="text-4xl font-bold mb-6">
+                        <h2 className="text-4xl font-bold mb-6 text-center md:text-left">
                             Real-Time <span className="text-transparent bg-linear-to-r from-orange-400 to-red-400 bg-clip-text">Reporting & Insights</span>
                         </h2>
                         <p className="text-gray-400 text-lg mb-8">
-                            Make data-driven decisions with comprehensive analytics that matter to your distribution business.
+                            Make data-driven decisions with comprehensive analytics that matter to your wholesale & distribution business.
                         </p>
                         <ul className="space-y-4">
                             {performance?.map((item, index) => (

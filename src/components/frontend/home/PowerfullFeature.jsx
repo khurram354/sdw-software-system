@@ -1,8 +1,8 @@
 import React from 'react';
 import MotionWrapper from '../wrapper/MotionWrapper';
-import {Truck, Package, BarChart3, Users, Shield, DollarSign} from 'lucide-react';
+import { Truck, Package, BarChart3, Users, Shield, PoundSterling, Smartphone, Percent, MessageCircle } from 'lucide-react';
 
-const PowerfullFeature = ({fadeInUp}) => {
+const PowerfullFeature = ({ fadeInUp }) => {
     const features = [
         {
             icon: Package,
@@ -19,7 +19,7 @@ const PowerfullFeature = ({fadeInUp}) => {
             bgColor: "bg-green-500/10"
         },
         {
-            icon: DollarSign,
+            icon: PoundSterling,
             title: "Smart Invoicing",
             description: "Automated invoicing with profit tracking per invoice",
             color: "from-purple-500 to-pink-500",
@@ -45,6 +45,27 @@ const PowerfullFeature = ({fadeInUp}) => {
             description: "Role-based permissions & admin controls",
             color: "from-amber-500 to-yellow-500",
             bgColor: "bg-amber-500/10"
+        },
+        {
+            icon: Smartphone,
+            title: "Mobile Orders",
+            description: "Mobile Ordering that increases order value.",
+            color: "from-pink-500 to-rose-500",
+            bgColor: "bg-pink-500/10"
+        },
+        {
+            icon: Percent,
+            title: "Group Pricing",
+            description: "Flexible pricing tiers for customer groups",
+            color: "from-teal-500 to-emerald-500",
+            bgColor: "bg-teal-500/10"
+        },
+        {
+            icon: MessageCircle,
+            title: "Inside Chat Option",
+            description: "Real‑time messaging within the distribution system",
+            color: "from-violet-500 to-purple-500",
+            bgColor: "bg-violet-500/10"
         }
     ];
     return (

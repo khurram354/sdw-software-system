@@ -104,9 +104,9 @@ export const Solution = ({containerVariants, itemVariants}) => {
     },
     {
       icon: Award,
-      title: "Customer Satisfaction",
-      description: "Improve customer retention by 60%",
-      metric: "60%",
+      title: "Order Fulfillment",
+      description: "Achieve 99% on-time order fulfillment",
+      metric: "99%",
       color: "text-orange-400"
     },
     {

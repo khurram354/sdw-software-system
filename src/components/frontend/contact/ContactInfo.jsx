@@ -14,7 +14,7 @@ const ContactInfo = ({ itemVariants }) => {
                     </div>
                     <div>
                         <div className="text-sm text-gray-400">Email</div>
-                        <Link href="mailto:support@sdw-ds.com" className="text-white">support@sdw-ds.com</Link>
+                        <Link href="mailto:sales@sdw-ds.com" className="text-white">sales@sdw-ds.com</Link>
                     </div>
                 </div>
                 <div className="flex items-center">

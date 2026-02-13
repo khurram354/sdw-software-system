@@ -46,18 +46,18 @@ const HeroFeature = ({ containerVariants, itemVariants, fadeInUp }) => {
                 <MotionWrapper variants={itemVariants} className="text-center mb-12">
                     <div className="inline-flex items-center px-4 py-2 rounded-full bg-linear-to-r from-purple-500/50 to-red-500/50 border border-blue-500/20 mb-6">
                         <Sparkles className="w-4 h-4 text-blue-400 mr-2" />
-                        <span className="text-md font-medium text-gray-100">Built for Distributors</span>
+                        <span className="text-md font-medium text-gray-100">Built for wholesale & Distributors</span>
                     </div>
                     <MotionWrapper as='h1'
                         variants={fadeInUp}
-                        className="text-5xl md:text-7xl font-bold mb-6"
+                        className="text-4xl md:text-7xl font-bold mb-6 md:leading-24 leading-12"
                     >
                         <span className="bg-linear-to-r from-white via-blue-100 to-cyan-100 bg-clip-text text-transparent">
                             Everything You Need
                         </span>
                         <br />
                         <span className="bg-linear-to-r from-blue-400 to-cyan-400 bg-clip-text text-transparent">
-                            To Scale Your Distribution
+                            To Scale Your Wholesale & Distribution Business
                         </span>
                     </MotionWrapper>
                     <MotionWrapper as='p'

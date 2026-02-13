@@ -15,7 +15,7 @@ const CTASec = () => {
             className="bg-linear-to-r from-blue-600/20 via-purple-600/20 to-pink-600/20 backdrop-blur-sm rounded-3xl p-12 border border-gray-700/50"
           >
             <h2 className="text-4xl md:text-5xl font-bold mb-6">
-              Ready to <span className="text-transparent bg-linear-to-r from-blue-400 via-purple-400 to-pink-400 bg-clip-text">Transform</span> Your Distribution Business?
+              Ready to <span className="text-transparent bg-linear-to-r from-blue-400 via-purple-400 to-pink-400 bg-clip-text">Transform</span> Your Wholesale & Distribution Business?
             </h2>
             <p className="text-xl text-gray-300 mb-10 max-w-3xl mx-auto">
               Join us using DS System to streamline operations and boost profitability.

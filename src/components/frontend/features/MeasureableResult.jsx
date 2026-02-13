@@ -65,7 +65,7 @@ const MeasureableResult = ({containerVariants, itemVariants,}) => {
                 <span className="text-white">That Drive Growth</span>
               </h2>
               <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-                See the impact SDW DS System can have on your wholesale and  distribution business
+                See the impact that the DS System can have on your wholesale and distribution business
               </p>
             </MotionWrapper>
             <MotionWrapper variants={containerVariants} className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mb-20">

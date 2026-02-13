@@ -24,14 +24,14 @@ const HeroIndustry = ({containerVariants, itemVariants, fadeInUp}) => {
             </div>
             <MotionWrapper as='h1'
               variants={fadeInUp}
-              className="text-5xl md:text-7xl font-bold mb-6"
+              className="text-4xl md:text-7xl font-bold mb-6 leading-relaxed"
             >
               <span className="bg-linear-to-r from-white via-purple-100 to-pink-100 bg-clip-text text-transparent">
                 Tailored for Your
               </span>
               <br />
               <span className="bg-linear-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">
-                Distribution Business
+                Wholesale & Distribution Business
               </span>
             </MotionWrapper>
             <MotionWrapper as='p' 
@@ -60,7 +60,7 @@ const HeroIndustry = ({containerVariants, itemVariants, fadeInUp}) => {
               { label: "Wholesale Supplier", icon: Store },
               { label: "Distributors", icon: Truck },
               { label: "Cash & Carry", icon: Building2 },
-              { label: "UK", icon: Globe },
+              { label: "Global", icon: Globe },
             ].map((stat, index) => (
               <MotionWrapper
                 key={index}
