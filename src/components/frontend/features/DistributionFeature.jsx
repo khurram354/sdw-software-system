@@ -107,7 +107,7 @@ const DistributionFeature = ({ containerVariants, itemVariants }) => {
                                 onClick={() => setActiveTab(feature.id)}
                                 className={`px-6 py-3 rounded-xl font-medium transition-all duration-300 flex items-center ${activeTab === feature.id
                                     ? `bg-linear-to-r ${feature.gradient} text-white shadow-lg shadow-${feature.color}-500/25`
-                                    : 'bg-gray-800/50 text-gray-300 hover:bg-gray-800 hover:text-white'
+                                    : 'bg-gray-800/50 text-gray-300 hover:bg-gray-800 hover:text-white shadow-xl'
                                     }`}
                             >
                                 <feature.icon className="w-5 h-5 mr-2" />
@@ -217,7 +217,7 @@ const DistributionFeature = ({ containerVariants, itemVariants }) => {
                                     whileHover={{ y: -5 }}
                                     onMouseEnter={() => setHoveredFeature(feature.id)}
                                     onMouseLeave={() => setHoveredFeature(null)}
-                                    className={`bg-gray-800/30 backdrop-blur-sm border ${hoveredFeature === feature.id ? `border-${feature.color}-500/50` : 'border-gray-700/50'} rounded-2xl p-6 transition-all duration-300`}
+                                    className={`bg-linear-to-t from-gray-800/30 to-gray-900 backdrop-blur-sm border ${hoveredFeature === feature.id ? `border-${feature.color}-500/50` : 'border-gray-700/50'} rounded-2xl p-6 transition-all duration-300 shadow-2xl`}
                                 >
                                     <div className={`p-3 rounded-xl bg-linear-to-r ${feature.gradient} w-fit mb-4`}>
                                         <feature.icon className="w-6 h-6 text-white" />

@@ -12,7 +12,7 @@ export default function HomePage() {
         visible: { opacity: 1, y: 0, transition: { duration: 0.6 } }
     };
   return (
-    <div className="min-h-screen bg-linear-to-b from-gray-800 via-black to-gray-900 text-white overflow-hidden">
+    <div className="min-h-screen bg-linear-to-b from-gray-800 via-gray-900 to-gray-800 text-white overflow-hidden">
       <div className="fixed inset-0 overflow-hidden pointer-events-none">
         <div className="absolute top-20 left-10 w-72 h-72 bg-blue-400/10 rounded-full blur-3xl animate-pulse" />
         <div className="absolute bottom-20 right-10 w-96 h-96 bg-purple-500/10 rounded-full blur-3xl animate-pulse delay-1000" />

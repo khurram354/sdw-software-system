@@ -4,7 +4,7 @@ import Link from "next/link";
 
 const CTAIndustry = () => {
   return (
-     <section className="py-12 px-4 sm:px-6 lg:px-8">
+     <section className="py-12 px-4 sm:px-6 lg:px-8 bg-linear-to-b from-gray-900 to-gray-800">
         <div className="max-w-7xl mx-auto">
           <MotionWrapper
             initial={{ opacity: 0, scale: 0.95 }}

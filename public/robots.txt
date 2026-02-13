@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Sitemap: https://sdw-ds.com/sitemap.xml
+Host: https://sdw-ds.com/

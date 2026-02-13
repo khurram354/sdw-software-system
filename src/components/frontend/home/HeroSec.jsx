@@ -32,13 +32,13 @@ const HeroSec = () => {
                         whileTap={{ scale: 0.95 }}
                     >
                         <Link className="bg-linear-to-r from-blue-600 to-cyan-500 px-10 py-4 rounded-xl font-semibold text-lg shadow-2xl shadow-blue-500/30 hover:shadow-blue-500/50 transition-all duration-300 flex items-center justify-center gap-2"
-                            href="/contact">
+                            href="/contact#book-your-demo">
                             <Target className="w-5 h-5" />
                             Book a Free Demo
                         </Link>
                     </MotionWrapper>
-                    <Link href={`/contact`}
-                        className="bg-gray-800/50 backdrop-blur-sm border border-gray-700 px-10 py-4 rounded-xl font-semibold text-lg hover:bg-gray-800 transition-all duration-300 hover:translate-middle"
+                    <Link href={'tel:02036270522'}
+                        className="bg-gray-800/50 backdrop-blur-sm border border-gray-700 px-10 py-4 rounded-xl font-semibold text-lg hover:bg-gray-800 transition-all duration-300 hover:translate-middle shadow-2xl"
                     >
                         Request a Call Back
                     </Link>
@@ -53,7 +53,7 @@ const HeroSec = () => {
                         <MotionWrapper key={index} transition={{ delay: index * 0.2 }}
                             initial={{ opacity: 0, y: 20 }}
                             animate={{ opacity: 1, y: 0 }}
-                            className="bg-gray-800/30 backdrop-blur-sm p-6 rounded-2xl border border-gray-700/50">
+                            className="bg-gray-800/50 backdrop-blur-sm p-6 rounded-2xl border border-gray-700/50 shadow-2xl">
                             <div className="text-3xl font-bold text-transparent bg-linear-to-r from-blue-400 to-cyan-400 bg-clip-text">
                                 {stat.value}
                             </div>

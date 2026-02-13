@@ -53,7 +53,7 @@ const ProblemWeSolve = ({fadeInUp}) => {
                             whileHover={{ scale: 1.02 }}
                             className="bg-linear-to-br from-gray-800/50 to-gray-900/50 backdrop-blur-sm p-6 rounded-2xl border border-gray-700/50 hover:border-red-500/30 transition-all duration-300"
                         >
-                            <div className="flex items-start gap-4">
+                            <div className="flex items-start gap-4 shadow-2xl">
                                 <span className="text-2xl">{problem.icon}</span>
                                 <p className="text-lg font-medium">{problem.text}</p>
                             </div>

@@ -3,7 +3,7 @@ import MotionWrapper from '../wrapper/MotionWrapper';
 import { Phone, Mail, MessageSquare } from 'lucide-react';
 import Link from 'next/link';
 
-const ContactInfo = ({itemVariants}) => {
+const ContactInfo = ({ itemVariants }) => {
     return (
         <MotionWrapper variants={itemVariants} className="bg-linear-to-br from-gray-900 to-gray-950 rounded-3xl border border-gray-800 p-8">
             <h3 className="text-2xl font-bold text-green-400 mb-6">Other Ways to Connect</h3>
@@ -14,7 +14,7 @@ const ContactInfo = ({itemVariants}) => {
                     </div>
                     <div>
                         <div className="text-sm text-gray-400">Email</div>
-                        <Link href="mailto:orders@spicedirectwholesale.co.uk" className="text-white">orders@spicedirectwholesale.co.uk</Link>
+                        <Link href="mailto:hessan@sdw-ds.com" className="text-white">hessan@sdw-ds.com</Link>
                     </div>
                 </div>
                 <div className="flex items-center">
@@ -23,7 +23,7 @@ const ContactInfo = ({itemVariants}) => {
                     </div>
                     <div>
                         <div className="text-sm text-gray-400">Phone</div>
-                        <Link href={'tel:01415303120'} className="text-white">+44 141 530 3120</Link>
+                        <Link href={'tel:02036270522'} className="text-white">+44 20 3627 0522</Link>
                     </div>
                 </div>
                 <div className="flex items-center">

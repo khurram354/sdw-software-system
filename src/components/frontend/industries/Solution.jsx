@@ -300,7 +300,7 @@ export const Solution = ({containerVariants, itemVariants}) => {
                     whileHover={{ y: -5 }}
                     onMouseEnter={() => setHoveredBenefit(index)}
                     onMouseLeave={() => setHoveredBenefit(null)}
-                    className={`bg-gray-800/30 backdrop-blur-sm border ${hoveredBenefit === index ? 'border-purple-500/50' : 'border-gray-700/50'} rounded-2xl p-6 transition-all duration-300`}
+                    className={`bg-gray-800/30 backdrop-blur-sm border ${hoveredBenefit === index ? 'border-purple-500/50' : 'border-gray-700/50'} rounded-2xl p-6 transition-all duration-300 shadow-2xl`}
                   >
                     <div className="flex items-start mb-4">
                       <div className="p-2 rounded-lg bg-gray-800/50 mr-3">

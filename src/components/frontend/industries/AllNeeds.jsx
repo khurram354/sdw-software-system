@@ -63,7 +63,7 @@ const AllNeeds = ({ containerVariants, itemVariants }) => {
                                 key={index}
                                 variants={itemVariants}
                                 whileHover={{ y: -5 }}
-                                className="bg-linear-to-br from-gray-900 to-gray-950 border border-gray-800 rounded-2xl p-8"
+                                className="bg-linear-to-b from-gray-900 to-gray-800 border border-gray-800 rounded-2xl p-8"
                             >
                                 <div className="p-3 rounded-xl bg-linear-to-r from-blue-500/20 to-cyan-500/20 w-fit mb-6">
                                     <solution.icon className="w-6 h-6 text-blue-400" />

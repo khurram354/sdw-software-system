@@ -1,16 +1,14 @@
-'use client';
 import React from 'react'
 import MotionWrapper from '../wrapper/MotionWrapper';
 import { Mail, Phone, MapPin } from 'lucide-react';
 import Link from 'next/link';
-import { delay } from 'framer-motion';
 
 const Footer = () => {
   const currentYear = new Date().getFullYear()
   return (
     <footer className="bg-gray-900 border-t border-gray-800">
       <div className="max-w-7xl mx-auto px-6 py-12">
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-4 mb-8">
           <MotionWrapper
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -18,7 +16,7 @@ const Footer = () => {
             className="md:col-span-2"
           >
             <h3 className="text-2xl font-bold mb-4 bg-linear-to-r from-blue-400 to-cyan-400 bg-clip-text text-transparent">
-              DS System
+              SDW DS System
             </h3>
             <p className="text-gray-400 mb-6 max-w-md">
               Streamlining distribution operations with innovative technology solutions designed for modern businesses.
@@ -64,15 +62,15 @@ const Footer = () => {
             <ul className="space-y-4">
               <li className="flex items-start gap-3 text-gray-400">
                 <Phone className="w-5 h-5 mt-1 text-blue-400" />
-                <Link href={'tel:01415303120'}>+44 141 530 3120</Link>
+                <Link href={'tel:02036270522'}>+44 20 3627 0522</Link>
               </li>
               <li className="flex items-start gap-3 text-gray-400">
                 <Mail className="w-5 h-5 mt-1 text-blue-400" />
-                <Link href="mailto:orders@spicedirectwholesale.co.uk">orders@spicedirectwholesale.co.uk</Link>
+                <Link href="mailto:hessan@sdw-ds.com">hessan@sdw-ds.com</Link>
               </li>
               <li className="flex items-start gap-3 text-gray-400">
                 <MapPin className="w-5 h-5 mt-1 text-blue-400" />
-                <span>225 Bernard Street G403NX<br />Glasgow UK</span>
+                <span>Office 19, Floor 2, Al Arif Shipping Building Port Saeed<br />Dubai UAE</span>
               </li>
             </ul>
           </MotionWrapper>
@@ -85,7 +83,7 @@ const Footer = () => {
             viewport={{ once: true }}
             className="text-gray-500 text-sm"
           >
-            © {currentYear} DS System. All rights reserved.
+            © {currentYear} SDW DS System. All rights reserved.
           </MotionWrapper>
           <MotionWrapper 
           initial={{opacity: 0}}

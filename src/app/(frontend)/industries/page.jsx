@@ -39,7 +39,7 @@ const IndustriesPage = () => {
     }
   };
   return (
-    <div className="min-h-screen bg-linear-to-b from-gray-900 via-gray-900 to-gray-950 text-white">
+    <div className="min-h-screen bg-linear-to-b from-gray-900 via-gray-900 to-gray-800 text-white">
       <HeroIndustry containerVariants={containerVariants} itemVariants={itemVariants} fadeInUp={fadeInUp} />
       <Solution containerVariants={containerVariants} itemVariants={itemVariants} />
       <AllNeeds containerVariants={containerVariants} itemVariants={itemVariants}/>

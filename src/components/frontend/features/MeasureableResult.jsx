@@ -48,7 +48,7 @@ const MeasureableResult = ({containerVariants, itemVariants,}) => {
     }
   ];
   return (
-    <section className="py-20 px-4 sm:px-6 lg:px-8 bg-linear-to-b from-gray-900 to-gray-950">
+    <section className="py-20 px-4 sm:px-6 lg:px-8 bg-linear-to-b from-gray-900 via-gray-800r to-gray-900">
         <div className="max-w-7xl mx-auto">
           <MotionWrapper
             initial="hidden"
@@ -65,7 +65,7 @@ const MeasureableResult = ({containerVariants, itemVariants,}) => {
                 <span className="text-white">That Drive Growth</span>
               </h2>
               <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-                See the impact DS System can have on your wholesale and  distribution business
+                See the impact SDW DS System can have on your wholesale and  distribution business
               </p>
             </MotionWrapper>
             <MotionWrapper variants={containerVariants} className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mb-20">
@@ -74,7 +74,7 @@ const MeasureableResult = ({containerVariants, itemVariants,}) => {
                   key={index}
                   variants={itemVariants}
                   whileHover={{ scale: 1.02 }}
-                  className="bg-linear-to-br from-gray-900 to-gray-950 border border-gray-800 rounded-2xl p-8"
+                  className="bg-linear-to-br from-gray-900/50 to-gray-800 border border-gray-800 rounded-2xl p-8"
                 >
                   <div className="flex items-start mb-6">
                     <div className="p-3 rounded-xl bg-gray-800/50 mr-4">

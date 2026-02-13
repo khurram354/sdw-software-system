@@ -86,7 +86,7 @@ const HeroFeature = ({ containerVariants, itemVariants, fadeInUp }) => {
                             key={index}
                             variants={itemVariants}
                             whileHover={{ scale: 1.05, y: -5 }}
-                            className="bg-gray-800/30 backdrop-blur-sm border border-gray-700/50 rounded-2xl p-6 text-center hover:border-blue-500/30 transition-all duration-300"
+                            className="bg-gray-800/30 backdrop-blur-sm border border-gray-700/50 rounded-2xl p-6 text-center hover:border-blue-500/30 transition-all duration-300 shadow-2xl"
                         >
                             <div className="inline-flex items-center justify-center w-12 h-12 rounded-xl bg-linear-to-r from-blue-500/20 to-cyan-500/20 mb-4">
                                 <stat.icon className="w-6 h-6 text-blue-400" />

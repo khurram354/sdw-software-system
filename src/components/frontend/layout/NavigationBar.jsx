@@ -50,8 +50,8 @@ const NavigationBar = () => {
           <div className="flex items-center absolute left-1/2 transform -translate-x-1/2 md:relative md:left-0 md:transform-none">
             <Link href="/" className="flex items-center space-x-2 group">
               <div className="relative">
-                <div className="w-10 h-10 bg-linear-to-r from-blue-600 to-cyan-500 rounded-xl flex items-center justify-center shadow-lg shadow-blue-500/30 group-hover:shadow-blue-500/50 transition-all duration-300">
-                  <span className="text-white font-bold text-lg">DS</span>
+                <div className="w-14 h-10 bg-linear-to-r from-blue-600 to-cyan-500 rounded-xl flex items-center justify-center shadow-lg shadow-blue-500/30 group-hover:shadow-blue-500/50 transition-all duration-300">
+                  <span className="text-white font-bold text-lg">SDW</span>
                 </div>
                 <div className="absolute -inset-1 bg-linear-to-r from-blue-600 to-cyan-500 rounded-xl blur opacity-30 group-hover:opacity-50 transition-opacity duration-300"></div>
               </div>

@@ -22,7 +22,7 @@ const HeroContact = ({ containerVariants, itemVariants, fadeInUp }) => {
                         className="text-5xl md:text-7xl font-bold"
                     >
                         <span className="bg-linear-to-r from-green-400 via-purple-400 to-green-400 bg-clip-text text-transparent">
-                            See DS System
+                            See SDW DS System
                         </span>
                         <br />
                         <span className="inline-block bg-linear-to-r from-blue-400 to-cyan-400 bg-clip-text text-transparent py-10">

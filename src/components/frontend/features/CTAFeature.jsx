@@ -3,7 +3,7 @@ import MotionWrapper from '../wrapper/MotionWrapper';
 
 const CTAFeature = () => {
   return (
-    <section className="py-20 px-4 sm:px-6 lg:px-8">
+    <section className="py-20 px-4 sm:px-6 lg:px-8 bg-linear-to-br from-gray-900 to-gray-800">
         <div className="max-w-7xl mx-auto">
           <MotionWrapper
             initial={{ opacity: 0, scale: 0.95 }}
@@ -16,7 +16,7 @@ const CTAFeature = () => {
             <div className="absolute top-0 left-0 w-96 h-96 bg-blue-500/10 rounded-full blur-3xl"></div>
             <div className="absolute bottom-0 right-0 w-96 h-96 bg-cyan-500/10 rounded-full blur-3xl"></div>
 
-            <div className="relative z-10 text-center py-16 px-8">
+            <div className="relative z-10 text-center py-16 px-8 bg-linear-to-b from-purple-600/80 via-blue-800/70 to-purple-600">
               <MotionWrapper as='h2'
                 initial={{ y: 20, opacity: 0 }}
                 whileInView={{ y: 0, opacity: 1 }}
@@ -27,7 +27,7 @@ const CTAFeature = () => {
                   Take Control Of
                 </span>
                 <br />
-                <span className="bg-linear-to-r from-blue-400 to-cyan-400 bg-clip-text text-transparent">
+                <span className="bg-linear-to-r from-green-500 to-green-600 bg-clip-text text-transparent">
                   Your Distribution Business?
                 </span>
               </MotionWrapper>
@@ -38,7 +38,7 @@ const CTAFeature = () => {
                 transition={{ delay: 0.3 }}
                 className="text-xl text-gray-300 max-w-2xl mx-auto mb-10"
               >
-                Discover how DS System can streamline your sales, inventory, Invoicing and delivery workflows in one platform.
+                Discover how SDW DS System can streamline your sales, inventory, Invoicing and delivery workflows in one platform.
               </MotionWrapper>    
             </div>
           </MotionWrapper>
