@@ -19,7 +19,7 @@ const Footer = () => {
               The SDW DS System
             </h3>
             <p className="text-gray-400 mb-6 max-w-md">
-              Streamlining distribution operations with innovative technology solutions designed for modern businesses.
+              Streamlining wholesale & distribution operations with innovative technology solutions designed for modern businesses.
             </p>
           </MotionWrapper>
           <MotionWrapper

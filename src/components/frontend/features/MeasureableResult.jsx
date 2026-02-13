@@ -1,11 +1,11 @@
 import React from 'react';
 import MotionWrapper from '../wrapper/MotionWrapper';
-import { DollarSign, Clock, TrendingUp, CheckCircle, Users2, Zap } from 'lucide-react';
+import {PoundSterling, Clock, TrendingUp, CheckCircle, Users2, Zap } from 'lucide-react';
 
 const MeasureableResult = ({containerVariants, itemVariants,}) => {
       const benefits = [
     {
-      icon: DollarSign,
+      icon: PoundSterling,
       title: "Reduce Costs",
       description: "Cut operational costs by up to 40% with automated workflows.",
       metric: "40%",

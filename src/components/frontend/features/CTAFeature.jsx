@@ -24,7 +24,7 @@ const CTAFeature = () => {
                 className="text-4xl md:text-5xl font-bold mb-6"
               >
                 <span className="bg-linear-to-r from-white to-gray-300 bg-clip-text text-transparent">
-                  Take Control Of
+                  Want to Take Controle Of
                 </span>
                 <br />
                 <span className="bg-linear-to-r from-green-500 to-green-600 bg-clip-text text-transparent">
@@ -38,7 +38,7 @@ const CTAFeature = () => {
                 transition={{ delay: 0.3 }}
                 className="text-xl text-gray-300 max-w-3xl mx-auto mb-10"
               >
-                Discover how The SDW DS System can streamline your sales, inventory, Invoicing and delivery workflows in one platform.
+                Discover how The DS System can streamline your sales, inventory, Invoicing and delivery workflows in one platform.
               </MotionWrapper>    
             </div>
           </MotionWrapper>

@@ -212,7 +212,7 @@ const TermsAndConditions = () => {
           </section>
           <section>
             <h2 className="text-lg font-semibold text-white border-b border-gray-700 pb-2 mb-4">
-              16. Signatures
+            Signatures
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
               <div className="bg-gray-800/50 p-5 rounded-lg border border-gray-700">
