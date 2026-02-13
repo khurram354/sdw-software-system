@@ -66,7 +66,7 @@ const Footer = () => {
               </li>
               <li className="flex items-start gap-3 text-gray-400">
                 <Mail className="w-5 h-5 mt-1 text-blue-400" />
-                <Link href="mailto:hessan@sdw-ds.com">hessan@sdw-ds.com</Link>
+                <Link href="mailto:support@sdw-ds.com">support@sdw-ds.com</Link>
               </li>
               <li className="flex items-start gap-3 text-gray-400">
                 <MapPin className="w-5 h-5 mt-1 text-blue-400" />
