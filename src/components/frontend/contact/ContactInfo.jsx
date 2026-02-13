@@ -26,15 +26,6 @@ const ContactInfo = ({ itemVariants }) => {
                         <Link href={'tel:02036270522'} className="text-white">+44 20 3627 0522</Link>
                     </div>
                 </div>
-                <div className="flex items-center">
-                    <div className="p-3 rounded-xl bg-purple-500/20 mr-4">
-                        <MessageSquare className="w-5 h-5 text-purple-400" />
-                    </div>
-                    <div>
-                        <div className="text-sm text-gray-400">Whatsapp Chat</div>
-                        <Link href={'https://wa.me/00447751980423'} className="text-white">+44 7751 980 423</Link>
-                    </div>
-                </div>
             </div>
         </MotionWrapper>
     )

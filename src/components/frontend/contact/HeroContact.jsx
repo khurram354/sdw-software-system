@@ -33,7 +33,7 @@ const HeroContact = ({ containerVariants, itemVariants, fadeInUp }) => {
                         variants={fadeInUp}
                         className="text-xl text-gray-300 max-w-3xl mx-auto mb-10"
                     >
-                        Get a personalized walkthrough of how DS System can transform your distribution business.
+                        Get a personalized walkthrough of how the DS System can transform your business.
                         See exactly how our platform solves your specific challenges.
                     </MotionWrapper>
                 </MotionWrapper>

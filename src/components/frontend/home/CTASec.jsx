@@ -18,7 +18,7 @@ const CTASec = () => {
               Ready to <span className="text-transparent bg-linear-to-r from-blue-400 via-purple-400 to-pink-400 bg-clip-text">Transform</span> Your Wholesale & Distribution Business?
             </h2>
             <p className="text-xl text-gray-300 mb-10 max-w-3xl mx-auto">
-              Join us using DS System to streamline operations and boost profitability.
+              Join us using The DS System to streamline operations and boost profitability.
             </p>
             
             <Link href={`/contact`} className="flex flex-col sm:flex-row justify-center gap-6">

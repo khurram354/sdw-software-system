@@ -112,7 +112,7 @@ const DistributionFeature = ({ containerVariants, itemVariants }) => {
                             <span className="text-white">Platform Features</span>
                         </h2>
                         <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-                            Every tool you need to manage your wholesale & distribution business efficiently
+                            Every tool you need to manage your business efficiently
                         </p>
                     </MotionWrapper>
                     <MotionWrapper variants={itemVariants} className="flex flex-wrap justify-center gap-3 mb-12">

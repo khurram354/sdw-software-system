@@ -36,7 +36,7 @@ const ProblemWeSolve = ({fadeInUp}) => {
                         Solving the Biggest Challenges in <span className="text-transparent bg-linear-to-r from-red-400 to-orange-400 bg-clip-text inline-block">Wholesale & Distribution</span>
                     </h2>
                     <p className="text-transparent bg-linear-to-r from-red-400 to-orange-400 bg-clip-text text-lg md:text-xl max-w-4xl mx-auto leading-relaxed">
-                        From pricing control to route management, DS System is purpose-build to help wholesale and distribution businesses operate smarter and more profitably.
+                        From pricing control to route management, The DS System is purpose-build to help wholesale and distribution businesses operate smarter and more profitably.
                     </p>
                 </MotionWrapper>
                 <MotionWrapper

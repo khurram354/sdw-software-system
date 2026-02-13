@@ -24,7 +24,7 @@ const Reporting = () => {
                             Real-Time <span className="text-transparent bg-linear-to-r from-orange-400 to-red-400 bg-clip-text">Reporting & Insights</span>
                         </h2>
                         <p className="text-gray-400 text-lg mb-8">
-                            Make data-driven decisions with comprehensive analytics that matter to your wholesale & distribution business.
+                            Make data-driven decisions with comprehensive analytics that matter to your business.
                         </p>
                         <ul className="space-y-4">
                             {performance?.map((item, index) => (
