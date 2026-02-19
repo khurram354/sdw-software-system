@@ -18,7 +18,7 @@ const HeroSec = () => {
 
                 <h1 className="text-4xl md:text-7xl font-bold mb-6 leading-tight bg-linear-to-r from-white via-blue-100 to-cyan-200 bg-clip-text text-transparent">
                     The All-in-One ERP Build Specifically for
-                    <span className="block">Wholesale & Distriution</span>
+                    <span className="block">Wholesale & Distribution</span>
                 </h1>
 
                 <p className="text-xl text-gray-300 mb-10 max-w-4xl mx-auto leading-relaxed">
