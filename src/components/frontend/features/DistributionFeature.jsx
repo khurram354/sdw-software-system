@@ -1,7 +1,7 @@
 'use client'
 import React, { useState } from 'react';
 import MotionWrapper from '../wrapper/MotionWrapper';
-import { Package, Truck, Users, BarChart3, Smartphone, ShieldCheck, CheckCircle, ArrowRight, } from 'lucide-react';
+import { Package, Truck, Users, BarChart3, Smartphone, ShieldCheck, CheckCircle, ArrowRight, Briefcase } from 'lucide-react';
 
 const DistributionFeature = ({ containerVariants, itemVariants }) => {
     const [activeTab, setActiveTab] = useState("inventory");
@@ -91,7 +91,21 @@ const DistributionFeature = ({ containerVariants, itemVariants }) => {
                 "Encourage repeate purchase automatically"
             ],
             stats: { accuracy: "99%", reduction: "20%", efficiency: "70%" }
-        }
+        },
+        {
+            id: "crm",
+            title: "Sales CRM",
+            description: "Complete sales pipeline management with lead tracking and opportunity management.",
+            icon: Briefcase,
+            gradient: "from-blue-600 to-indigo-600",
+            color: "indigo",
+            details: [
+                "Lead and opportunity tracking",
+                "Sales stage management",
+                "Activity logging and follow-ups"
+            ],
+            stats: { accuracy: "95%", reduction: "30%", efficiency: "55%" }
+        },
     ];
     const currentFeature = features.find(f => f.id === activeTab) || features[0];
     return (

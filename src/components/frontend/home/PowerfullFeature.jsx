@@ -1,6 +1,6 @@
 import React from 'react';
 import MotionWrapper from '../wrapper/MotionWrapper';
-import { Truck, Package, BarChart3, Users, Shield, PoundSterling, Smartphone, Percent, MessageCircle } from 'lucide-react';
+import { Truck, Package, BarChart3, Users, Shield, PoundSterling, Smartphone, Percent, MessageCircle, Briefcase } from 'lucide-react';
 
 const PowerfullFeature = ({ fadeInUp }) => {
     const features = [
@@ -66,7 +66,14 @@ const PowerfullFeature = ({ fadeInUp }) => {
             description: "Real‑time messaging within the distribution system",
             color: "from-violet-500 to-purple-500",
             bgColor: "bg-violet-500/10"
-        }
+        },
+        {
+            icon: Briefcase,
+            title: "Sales CRM",
+            description: "Track leads, opportunities, and manage your sales pipeline",
+            color: "from-blue-600 to-indigo-600",
+            bgColor: "bg-blue-600/10"
+        },
     ];
     return (
         <section className="py-20 relative">
