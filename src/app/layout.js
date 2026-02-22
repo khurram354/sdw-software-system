@@ -3,6 +3,7 @@ import "./globals.css";
 import NavigationBar from "@/components/frontend/layout/NavigationBar";
 import Footer from "@/components/frontend/layout/Footer";
 import ToastProvider from "@/components/frontend/wrapper/ToastProvider";
+import GoogleAdsTracking from "@/components/frontend/layout/GoogleAdsTracking";
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata = {
@@ -76,6 +77,7 @@ export default function RootLayout({ children }) {
       </head>
       <body
         className={`${inter.className}`}>
+        <GoogleAdsTracking />
         <NavigationBar />
         <main className="min-h-screen">{children}</main>
         <ToastProvider />
