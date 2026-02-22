@@ -6,6 +6,7 @@ import Industries from '@/components/frontend/home/Industries';
 import WhyChooseUs from '@/components/frontend/home/WhyChooseUs';
 import CTASec from '@/components/frontend/home/CTASec';
 import Reporting from '@/components/frontend/home/Reporting';
+import NoSetUpCostBanner from '@/components/frontend/home/NoSetUpCostBanner';
 export default function HomePage() {
    const fadeInUp = {
         hidden: { opacity: 0, y: 20 },
@@ -22,6 +23,7 @@ export default function HomePage() {
       <ProblemWeSolve fadeInUp={fadeInUp}/>
       <HowDSSystemWorks fadeInUp={fadeInUp}/>
       <PowerfullFeature fadeInUp={fadeInUp}/>
+      <NoSetUpCostBanner fadeInUp={fadeInUp}/>
       <Industries fadeInUp={fadeInUp}/>
       <WhyChooseUs fadeInUp={fadeInUp}/>
       <Reporting/>
