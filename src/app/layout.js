@@ -4,6 +4,7 @@ import NavigationBar from "@/components/frontend/layout/NavigationBar";
 import Footer from "@/components/frontend/layout/Footer";
 import ToastProvider from "@/components/frontend/wrapper/ToastProvider";
 import GoogleAdsTracking from "@/components/frontend/layout/GoogleAdsTracking";
+import GoogleAnalytics from "@/components/frontend/layout/GoogleAnalytics";
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata = {
@@ -78,6 +79,7 @@ export default function RootLayout({ children }) {
       <body
         className={`${inter.className}`}>
         <GoogleAdsTracking />
+        <GoogleAnalytics />
         <NavigationBar />
         <main className="min-h-screen">{children}</main>
         <ToastProvider />
