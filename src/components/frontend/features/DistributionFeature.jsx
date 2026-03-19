@@ -1,7 +1,7 @@
 'use client'
 import React, { useState } from 'react';
 import MotionWrapper from '../wrapper/MotionWrapper';
-import { Package, Truck, Users, BarChart3, Smartphone, ShieldCheck, CheckCircle, ArrowRight, Briefcase } from 'lucide-react';
+import { Package, Truck, Users, BarChart3, Smartphone, ShieldCheck, CheckCircle, ArrowRight, Briefcase, Cpu } from 'lucide-react';
 
 const DistributionFeature = ({ containerVariants, itemVariants }) => {
     const [activeTab, setActiveTab] = useState("inventory");
@@ -105,6 +105,20 @@ const DistributionFeature = ({ containerVariants, itemVariants }) => {
                 "Activity logging and follow-ups"
             ],
             stats: { accuracy: "95%", reduction: "30%", efficiency: "55%" }
+        },
+        {
+            id: "ai",
+            title: "AI Ordering",
+            description: "Smart AI recommendations and predictive ordering to boost sales.",
+            icon: Cpu,
+            gradient: "from-fuchsia-500 to-pink-500",
+            color: "fuchsia",
+            details: [
+                "Predictive item suggestions",
+                "Personalized customer recommendations",
+                "Optimized reorder suggestions"
+            ],
+            stats: { accuracy: "97%", reduction: "25%", efficiency: "60%" }
         },
     ];
     const currentFeature = features.find(f => f.id === activeTab) || features[0];

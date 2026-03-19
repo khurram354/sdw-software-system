@@ -1,6 +1,6 @@
 import React from 'react';
 import MotionWrapper from '../wrapper/MotionWrapper';
-import { Truck, Package, BarChart3, Users, Shield, PoundSterling, Smartphone, Percent, MessageCircle, Briefcase } from 'lucide-react';
+import { Truck, Package, BarChart3, Users, Shield, PoundSterling, Smartphone, Percent, MessageCircle, Briefcase, Cpu } from 'lucide-react';
 
 const PowerfullFeature = ({ fadeInUp }) => {
     const features = [
@@ -73,6 +73,13 @@ const PowerfullFeature = ({ fadeInUp }) => {
             description: "Track leads, opportunities, and manage your sales pipeline",
             color: "from-blue-600 to-indigo-600",
             bgColor: "bg-blue-600/10"
+        },
+        {
+            icon: Cpu, 
+            title: "AI Ordering",
+            description: "Smart recommendations and predictive ordering using AI",
+            color: "from-orange-500 to-yellow-500",
+            bgColor: "bg-fuchsia-500/10"
         },
     ];
     return (
